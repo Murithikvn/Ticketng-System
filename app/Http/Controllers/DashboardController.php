@@ -17,4 +17,16 @@ class DashboardController extends Controller
   {
       return view('ticket');
   }
+   //create function that returns contacts page
+   public function contacts()
+   {
+       return view('contacts');
+   }
+
+    //create function that returns archives page
+  public function archives()
+  {
+      return view('archives');
+  }
+
 }

@@ -102,7 +102,7 @@
                              src="assets/images/logo/accent-teal-100@2x.png"
                              width="32"
                              alt="Huma">
-                        <span class="d-none d-lg-block">Huma</span>
+                        <span class="d-none d-lg-block">SHL</span>
                     </a>
 
                     <!-- <button class="btn navbar-btn mr-16pt" data-toggle="modal" data-target="#apps">Apps <i class="material-icons">arrow_drop_down</i></button> -->
@@ -345,7 +345,7 @@
 
                                 <small class="ml-4pt flex">
                                     <span class="d-flex flex-column">
-                                        <strong class="text-black-100">HumaHuma Inc.</strong>
+                                        <strong class="text-black-100">SHL Inc.</strong>
                                         <span class="text-black-50">Publisher</span>
                                     </span>
                                 </small>
@@ -363,9 +363,9 @@
                             <img class="brand-icon"
                                  src="assets/images/logo/black-70@2x.png"
                                  width="30"
-                                 alt="Huma"> Huma
+                                 alt="Huma"> SHL
                         </p>
-                        <p class="measure-lead-max text-muted mb-0 small">Huma is a beautifully crafted user interface for modern Business Admin Web Applications, with examples for many pages needed for Customer Relationship Management, Enterprise Resource Planning, Human Resources, Content Management System, Project Management, Tasks, eCommerce, Messaging and Account Management.</p>
+                        <p class="measure-lead-max text-muted mb-0 small">SHL is a beautifully crafted user interface for modern Business Admin Web Applications, with examples for many pages needed for Customer Relationship Management, Enterprise Resource Planning, Human Resources, Content Management System, Project Management, Tasks, eCommerce, Messaging and Account Management.</p>
                     </div>
                     <div class="pb-16pt pb-lg-24pt">
                         <div class="container-fluid page__container">
@@ -403,7 +403,7 @@
                                             <a href=""
                                                class="text-white-70 text-underline">Privacy policy</a>
                                         </p>
-                                        <p class="text-white-50 small mb-0">Copyright 2019 &copy; All rights reserved.</p>
+                                        <p class="text-white-50 small mb-0">SHL Copyright 2021 &copy; All rights reserved.</p>
                                     </div>
                                 </div>
                             </div>
@@ -436,7 +436,7 @@
                             <img class="sidebar-brand-icon"
                                  src="assets/images/logo/accent-teal-100@2x.png"
                                  alt="Huma">
-                            <span>Huma</span>
+                            <span>SHL</span>
                         </a>
 
                         <div class="sidebar-account mx-16pt mb-16pt dropdown">
@@ -453,7 +453,7 @@
                                     <span class="text-black-100">Laza Bogdan</span>
                                     <small class="text-black-50">Administrator</small>
                                 </span>
-                                <i class="macomterial-icons text-black-20 icon-16pt">keyboard_arrow_down</i>
+                                <i class="macomterial-icons text-black-20 icon-16pt">SHL</i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-full dropdown-menu-caret-center">
                                 <div class="dropdown-header"><strong>Account</strong></div>
@@ -494,7 +494,7 @@
 
                                     <small class="ml-4pt flex">
                                         <span class="d-flex flex-column">
-                                            <strong class="text-black-100">HumaHuma Inc.</strong>
+                                            <strong class="text-black-100">SHL Inc.</strong>
                                             <span class="text-black-50">Publisher</span>
                                         </span>
                                     </small>
@@ -544,6 +544,38 @@
                                     </li>
 
                                 </ul>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a class="sidebar-menu-button"
+                                   data-toggle="collapse"
+                                   href="#dashboards_menu">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">link</span>
+                                    Contacts
+                                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                                </a>
+                                <ul class="sidebar-submenu collapse sm-indent"
+                                    id="dashboards_menu">
+                                    <li class="sidebar-menu-item active">
+                                        <a class="sidebar-menu-button"
+                                           href="{{route('contacts')}}">
+                                            <span class="sidebar-menu-text">Contacts</span>
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button"
+                                           href="analytics.html">
+                                            <span class="sidebar-menu-text">Companies</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="sidebar-menu-item active">
+                                <a class="sidebar-menu-button"
+                                   href="/archives">
+                                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">insert_chart_outlined</span>
+                                    <span class="sidebar-menu-text">Archives</span>
+                                </a>
                             </li>
                         </ul>
 

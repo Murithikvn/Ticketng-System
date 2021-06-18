@@ -277,8 +277,8 @@
                                                          class="avatar-img rounded-circle">
                                                 </span>
                                                 <span class="flex d-flex flex-column">
-                                                    <strong class="text-black-100">Michelle</strong>
-                                                    <span class="text-black-70">Clients loved the new design.</span>
+                                                    <strong class="text-black-100">GKahinga</strong>
+                                                    <span class="text-black-70">Clients pleased with your work.</span>
                                                 </span>
                                             </span>
                                         </a>
@@ -296,7 +296,7 @@
                                                          class="avatar-img rounded-circle">
                                                 </span>
                                                 <span class="flex d-flex flex-column">
-                                                    <strong class="text-black-100">Michelle</strong>
+                                                    <strong class="text-black-100">SNjau</strong>
                                                     <span class="text-black-70">🔥 Superb job..</span>
                                                 </span>
                                             </span>

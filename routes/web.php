@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 Route::get('/dashboard', [DashboardController::class,'dashboard']);
 Route::get('/ticket', [DashboardController::class,'tickets'])->name('ticket');
+Route::get('/contacts', [DashboardController::class,'contacts'])->name('contacts');
+Route::get('/archives', [DashboardController::class,'archives'])->name('archives');
